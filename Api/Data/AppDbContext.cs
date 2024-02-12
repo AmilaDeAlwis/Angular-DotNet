@@ -1,3 +1,4 @@
+using Api.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Api.Data
@@ -8,5 +9,6 @@ namespace Api.Data
         {
             
         }
+        public DbSet<Student> students {get;set;}
     }
 }
